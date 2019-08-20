@@ -4,6 +4,11 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  h = {
+    :test1 => 'asdf',
+    :test2 => 'fdsa'
+  }
+  return h
 end
 
 def pioneer
