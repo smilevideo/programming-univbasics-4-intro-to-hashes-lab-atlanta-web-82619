@@ -23,13 +23,11 @@ def id_generator
   h = {
     :id => 53
   }
-  return h
 end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
   h = {key => value}
-  return h
 end
 
 def read_from_hash(hash, key)
